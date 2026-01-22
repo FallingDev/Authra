@@ -1,0 +1,4 @@
+app = "secure-authenticator"
+[http_service]
+  internal_port = 8080
+  force_https = true
