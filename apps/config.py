@@ -1,6 +1,0 @@
-import os
-DATABASE_URL = os.getenv("DATABASE_URL")
-JWT_SECRET = os.getenv("JWT_SECRET")
-FERNET_KEY = os.getenv("FERNET_KEY")
-JWT_ALGORITHM = "HS256"
-JWT_EXPIRE_MINUTES = 30
